@@ -54,8 +54,13 @@ function ans(){
     $("#real_b").addClass("b");
     document.querySelector(".b").innerHTML = b;
   }
+  $("#whole_div").removeClass("unready");
+  $("#whole_div").addClass("ready");
 }
+
 
 function clr(){
   $("#whole_div").html("<h3 id='whole'>f(x)=<h3 id='real_m'><h3><h3 id='info_x'>x</h3><h3 id='real_b'></h3></h3>");
+  $("#whole_div").removeClass("ready");
+  $("#whole_div").addClass("unready");
 }

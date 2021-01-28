@@ -42,3 +42,12 @@ div button {
 #ans2{
   background-color: red;
 }
+.ready {
+  color: black;
+}
+.unready {
+  color: white;
+}
+.rules {
+  margin-top: 20px
+}
