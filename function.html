@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel ="stylesheet"
+          type ="text/css"
+          href ="function.css" />
+    <link rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
+    <script src="function.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Linear function</title>
+  </head>
+  <body class="back">
+  <h1>Find equation of linear function</h1>
+  <ul>
+    <li>
+      <p>Enter coordinates of first point</p>
+      x: <input type="text" id="x1">
+      y: <input type="text" id="y1">
+    </li>
+    <li>
+      <p>Enter coordinates of second point</p>
+      x: <input type="text" id="x2">
+      y: <input type="text" id="y2">
+    </li>
+
+  </ul>
+  <div>
+  <button id="ans1"type="button" onclick="ans()">Calculate equation</button>
+  <button id="ans2"type="button" onclick="clr()">Clear</button>
+</div>
+<div id="whole_div">
+<h3 id="whole">
+  f(x)=<h3 id="real_m"><h3>
+    <h3 id="info_x">x</h3>
+    <h3 id="real_b"></h3>
+  </h3>
+</div>
+  </body>
+
+</html>
