@@ -15,8 +15,13 @@ function ans(){
     $("#real_m").addClass("m");
     document.querySelector(".m").innerHTML = m;
    }
-   if(m == -1){
-     $("#info_x").html("<h3>-x</h3>");
+   if(m<0){
+      if(m == -1){
+        $("#info_x").html("<h3>-x</h3>");
+      } else {
+        $("#real_m").addClass("m");
+        document.querySelector(".m").innerHTML = m;
+      }
    }
    if(m==0){
      $("#info_x").html("<h3>0</h3>");
@@ -27,8 +32,13 @@ function ans(){
       $("#real_m").addClass("m");
       document.querySelector(".m").innerHTML = m;
     }
-    if(m == -1){
-      $("#info_x").html("<h3>-x</h3>");
+    if(m<0){
+      if(m == -1){
+        $("#info_x").html("<h3>-x</h3>");
+      } else {
+        $("#real_m").addClass("m");
+        document.querySelector(".m").innerHTML = m;
+      }
     }
     if(m == 0){
       $("#info_x").html("<h3></h3>");
@@ -45,8 +55,14 @@ function ans(){
       $("#real_m").addClass("m");
       document.querySelector(".m").innerHTML = m;
     }
-    if(m == -1){
-      $("#info_x").html("<h3>-x+</h3>");
+    if(m<0){
+      if(m == -1){
+        $("#info_x").html("<h3>-x+</h3>");
+      } else {
+        $("#real_m").addClass("m");
+        document.querySelector(".m").innerHTML = m;
+        $("#info_x").html("<h3>x+</h3>");
+      }
     }
     if(m == 0){
       $("#info_x").html("<h3></h3>");
